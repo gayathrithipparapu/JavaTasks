@@ -46,7 +46,7 @@ public class Main {
 
         /*TASK 3*/
 
-        for(int i=2;i<=200;i++)
+        for(int i=2;i<=100;i++)
         {
             int flag = 1;
             for (int j = 2; j <= i / 2; ++j) {
@@ -64,7 +64,7 @@ public class Main {
 
         }
         /*Task 4*/
-        int n=6;
+        int n=5;
         int[] arr1 = new int[]{ 1,2,3,4,5,6,6,8,9,10 };
         arr1 = removeElements(arr1, n);
         System.out.println(Arrays.toString(arr1));
@@ -78,7 +78,7 @@ public class Main {
         System.out.println(even(arr2));
 
         /* Task 7*/
-        String s="Abhii";
+        String s="AbddBaaBAbbcc";
         System.out.println(firstUniqueChar(s));
     }
 }

@@ -12,7 +12,7 @@ public class Task6 {
         {
             if((iter.next() ) %2 != 0)
             {
-                System.out.println(iter.next()+" ");
+                System.out.println(iter.next());
             }
         }
         return null;
